@@ -143,7 +143,7 @@ public class LoginDialog extends JFrame {
                 onCancel();
             }
         });
-        btnClear = new JButton("Clear");
+        btnClear = new JButton("Clear");			//added a clear btn in case you write wrong credentials, and you know it
         btnClear.setName("clear_button");
         btnClear.addActionListener(new ActionListener() {
 
